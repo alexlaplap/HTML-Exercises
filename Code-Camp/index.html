@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises-HTML</title>
+</head>
+<body>
+    <h1 id="top">Top of the Page</h1>
+    <!--sup and sub elements-->
+    <h1>Hello Im <sup>1st</sup> <sub>Totoy Bertoni</sub> in Town.</h1>
+    <!--strong and emphasis (former Bold <b> and Italic <i>)-->
+    <p>Lasciate <strong>ogni speranza </strong><em>voi ch'entrate.</em></p>
+    
+    <!--
+        Applying Special Characters
+        Visit https://dev.w3.org/html5/html-author/charref 
+        for more details
+    -->
+    <p>&niv;&sum;&abreve; copyright&copy;</p>
+    <!--Sponge Bob Image-->
+    <h2>When you entered the world called Earth...</h2>
+    <img src="/Code-Camp/images/a.jpg" width="300" alt="Sponge Bob Meme: Abandon Hope...">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Voluptas placeat laboriosam eaque inventore nemo culpa ipsam? 
+        Sequi incidunt perspiciatis, tenetur ullam inventore odio 
+        delectus consectetur architecto dignissimos laudantium omnis 
+        sunt labore sed porro quas adipisci amet, quibusdam commodi! 
+        Suscipit, quod. Quam dolorem autem fugiat, quia illo aliquam 
+        exercitationem vitae quos quod, doloremque quae aut assumenda 
+        tempore delectus soluta totam eum magni impedit placeat cumque 
+        facere earum. Error, reprehenderit, architecto quos commodi 
+        maxime culpa voluptatum soluta exercitationem quo accusantium, 
+        hic cum a! Facilis error non dolorem corporis alias ipsam 
+        quibusdam. Dolor amet optio qui? Maxime, nulla itaque aut 
+        similique quis exercitationem?</p>
+    <br>
+    <br>
+    <!--Reality Image-->
+    <h2>Image of My Hopes and dreams.</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptatibus, dolor commodi. Minus possimus ullam voluptatem quis, 
+        error, saepe magni, ipsa sit fugiat vitae dolor tempora praesentium 
+        eligendi! Quasi eum libero quam veritatis porro perspiciatis sint 
+        voluptatum, deleniti distinctio quisquam, dolore tenetur consequatur. 
+        Quisquam quas aperiam ipsum velit voluptatum qui, iure neque unde, 
+        impedit harum nisi excepturi? Molestias commodi delectus, 
+        libero earum, assumenda dolorem quibusdam quo iure, 
+        voluptate blanditiis provident. Hic illo sit est asperiores debitis, 
+        voluptate error, nemo deleniti ipsum, quae nam eos commodi quos 
+        quasi impedit! Vitae exercitationem sapiente eaque, labore rem rerum 
+        quos veritatis maxime fuga natus placeat?
+    </p>
+    <img src="https://i.imgflip.com/cknal.jpg?a451416" width="300" alt="Here Lies My Hopes and Dreams.">
+    <br>
+    <br>
+    <!--External: Linking-->
+    <h2>External Link</h2>
+    <a href="https://www.google.com/" target="_blank">Google it!</a>
+    <br>
+    <br>
+    <!--Internal: Linking-->
+    <h2>Internal Link</h2>
+    <a href="internal-link.html">Enter and Be Amazed!</a>
+    <br>
+    <br>
+    <!--Internal: Linking but Picture is used-->
+    <h2>Internal Link (Picture)</h2>
+    <a href="internal-link.html">
+        <img src="/Code-Camp/images/a.jpg" width="150" alt="Picture of Spong Bob">
+    </a>
+    <p>Note: You have been warned.</p>
+    <br>
+    <br>
+
+    <!--Un Ordered List-->
+    <!--"ul" is basically a bullet, "ol" is a numbered bullet-->
+    <h2>Bullets and Numbers</h2>
+    <ul>
+        <li>john</li>
+        <ol>
+            <li>Pytr</li>
+            <li>Sara</li>
+        </ol>
+    <!--Also Applicable with links for navigation-->
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <br>
+    <br>
+    <!--Creating Table-->
+    <h2>Tables</h2>
+    <table>
+        <tr>
+        <th>Names</th>
+        <th>Names</th>
+        <th>Names</th>
+        </tr>
+        <tr>
+            <td>john</td>
+            <td>Sarah</td>
+            <td>Pytr</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <!--Forms-->
+    <h2>Forms</h2>
+    <form action="" method="">
+       <!--Text Input-->
+        <label for="name">First Name</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <br>
+        <!--Password Input-->
+        <label for="password">Password</label>
+        <input type="password" placeholder="password">
+        <br>
+        <br>
+        <!--Value Input-->
+        <label for="email">E-mail</label>
+        <input type="email" name="" id="" value="email@email">
+        <br>
+        <br>
+        <!--Descriptions-->
+        <textarea name="" id="" cols="30" rows="10">
+        Type anything here.
+        </textarea>
+        <br>
+        <br>
+        <!--Selection (radio type buttons, can pick only one choice)-->
+        <p>Please select your favorite coding language.</p>
+        <input type="radio" name="coding" id="" value="Java">Java
+        <br>
+        <input type="radio" name="coding" id="" value="HTML5">HTML5
+        <br>
+        <input type="radio" name="coding" id="" value="CSS">CSS
+        <br>
+        <input type="radio" name="coding" id="" value="Python">Python
+        <br>
+        <input type="radio" name="coding" id="" value="C++">C++
+        <br>
+        <br>
+        <!--Selection (checkbox type buttons, can pick multiple choices)-->
+        <p>Please select your favorite coding language.</p>
+        <input type="checkbox" name="programming" id="" value="Java">Java
+        <br>
+        <input type="checkbox" name="programming" id="" value="HTML5">HTML5
+        <br>
+        <input type="checkbox" name="programming" id="" value="CSS">CSS
+        <br>
+        <input type="checkbox" name="programming" id="" value="Python">Python
+        <br>
+        <input type="checkbox" name="programming" id="" value="C++">C++
+        <br>
+        <br>
+        <!--Selection (drop down selection, can pick one choice)-->
+        <p>Please select your favorite coding language.</p>
+        <select name="languages" id="">
+            <option value="Java">Java</option>
+            <option value="HTML5">HTML5</option>
+            <option value="CSS">CSS</option>
+            <option value="Python">Python</option>
+            <option value="C++">C++</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Submit!">
+    </form>
+    <br>
+    <br>
+    
+    <!--Internal: Linking to a Section (This instance is going to top.)-->
+    <a href="#top">Back to Top</a>
+</body>
+</html>
