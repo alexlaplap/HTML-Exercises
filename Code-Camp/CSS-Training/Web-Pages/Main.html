@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial/Training</title>
+    <!--INTERNAL CSS-->
+    <style>
+        h2{
+            color: darkblue;
+            font-size: 3rem;
+        }
+    </style>
+    <!--END OF INTERNAL CSS-->
+    
+    <!--EXTERNAL CSS-->
+    <link rel="stylesheet" href="/Code-Camp/CSS-Training/CSS/style.css">
+</head>
+<body>
+    <!--INLINE CSS
+        Dis-advantage of inline CSS is only for SINGLE element-->
+    <h1 style="color:chocolate; font-size: 3rem;">Inline CSS Tutorial</h1>
+    <h2>Normal Text</h2>
+    <!--h1 has style applied but h2 has none, and makes coding more cluttered-->
+    <br>
+    <br>
+    <!--INTERNAL CSS
+        NOTE: 'style' must be defined in its prospective element defenition
+        (example: h1, h2, h3... must have their style defined in <head>.)
+        Disadvantage of Internal CSS is restricted only to the web page applied.
+        (No flexibility to other pages. See 'page2' link.) The solution
+        is to copy-paste the style to the other page's equivalent section.
+        -->
+    <h1>CSS Tutorial</h1>
+    <h1>CSS Tutorial</h1>
+    <h2>Normal Text</h2>
+    <h2>Normal Text</h2>
+    <h3>External CSS Tutorial</h3>
+    <h3>External CSS Tutorial</h3>
+    <h4>External CSS Tutorial</h4>
+    <h4>External CSS Tutorial</h4>
+    <a href="./page2.html">Page 2</a>
+    <!--OVER-RIDING STYLES-->
+    <!--
+        Must be used if and only if necessary, not wise for actual application
+        as codes become more cluttered.
+        
+        External CSS can be over-ridden by Internal CSS,
+        Internal CSS can be over-ridden by Inline CSS.
+        
+        It does not work in the other way around.
+    -->
+</body>
+</html>
